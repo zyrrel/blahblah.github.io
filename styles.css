@@ -1,0 +1,104 @@
+body{ 
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+   overflow: hidden;
+     
+}
+.maincontainer { 
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.introbox {
+    height: 340px;
+    width: 450px;
+   position: relative;
+background-color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.circlephoto {
+    position: absolute;
+
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+   left: 125px;
+  top: -130px;
+  background-color: pink;
+
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.name {
+    text-align: center;
+    display: absolute;
+    margin-top: 75px;
+    font-size: 30px;
+ 
+}
+.quote {
+    margin-top: 0px;
+    margin-bottom: -10px;
+    text-align: center;
+    opacity: 60%;
+}
+.about {
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.socialscontainer {
+    width: 50%;
+    height: 10%;
+
+    margin-left: auto;
+    margin-right: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.github {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+   margin-top: -40px;
+}
+.github:hover {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.buttonscontainer {
+    height: 40px;
+    width: 80%;
+margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.projects, .resume {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 65%;
+    width: 65%;
+}
